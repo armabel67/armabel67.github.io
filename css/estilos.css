@@ -431,13 +431,13 @@ justify-items: center;
 }
 
 .about__contactanos {
-    margin: 40px auto;
+    margin: 20px auto;
     margin-left: 20px;
     margin-right: 10px;
-    width: 95%;
+    width: 100%;
     height: 260px auto; 
-
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+    grid-template-columns: 1fr 1fr;
     resize: both;
     overflow: hidden;
     display: flex;
@@ -449,15 +449,17 @@ justify-items: center;
 .about__icons__contac {
     flex-basis: 200px;
     flex-grow: 1;
-    width: 300px;
-    height: 350px;
+    width: 200px;
+    height: 400px;
     inset: 0;
     margin: auto;
+    margin-left: 15px;
     display: grid;
     gap: 1em;
-    padding: 10;
-    grid-template-columns: repeat(auto-fit, minmax(350x, auto));
+    padding: 20;
+    grid-template-columns: repeat(auto-fit, minmax(260x, auto));
     overflow: hidden;
+    justify-items: center;
     /* left: 0;
     z-index: -1;  */
 }
@@ -469,7 +471,7 @@ justify-items: center;
     padding: 0;
     /* border-radius: 10%; */
     object-fit: cover;
-    grid-template-columns: repeat(auto-fit, minmax(350x, auto));
+    grid-template-columns: repeat(auto-fit, minmax(2000x, auto));
     border: 1px solid #FFF groove;
 }
 
