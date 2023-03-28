@@ -44,7 +44,7 @@ body {
 /* Nav */
 
 .nav {
-    --padding-container: 0;
+    --padding-container: 30px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -513,21 +513,22 @@ justify-items: center;
 }
 
 .footer__inputs{
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     overflow: hidden;
 }
 
 .footer__input{
     background-color: #fff;
-    height: 50px;
+    height: 100px;
+    width: 600px;
     display: block;
-    padding-left: 10px;
+    padding-left: 5px;
     border-radius: 6px;
     font-size: 1rem;
     outline: none;
     border: none;
-    margin-right: 16px;
+    margin-right: 6px;
 }
 
 .footer__submit{
@@ -535,7 +536,7 @@ justify-items: center;
     display: inline-block;
     height: 50px;
     padding: 0 20px ;
-    background-color: #2091F9;
+    background-color: #ffab23 ;
     border: none;
     font-size: 1rem;
     color: #fff;
