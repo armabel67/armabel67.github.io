@@ -444,6 +444,7 @@ justify-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 1em;
+}
 
 .about__icons__contac {
     flex-basis: 200px;
@@ -488,14 +489,12 @@ justify-items: center;
     color: #fff;
 }
 
-
 .footer__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #fff;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .nav--footer{
@@ -535,8 +534,8 @@ justify-items: center;
     margin-left: auto;
     display: inline-block;
     height: 50px;
-    padding: 0 10px ;
-    background-color: #ffc107;
+    padding: 0 20px ;
+    background-color: #2091F9;
     border: none;
     font-size: 1rem;
     color: #fff;
@@ -562,7 +561,7 @@ justify-items: center;
     width: 30px;
 }
 
-/* Media queries */ 
+/* Media queries */ *****************************************************************************************************
 
 @media (max-width:800px){
     .nav__menu{
@@ -654,7 +653,7 @@ justify-items: center;
 
     .nav--footer{
         width: 100%;
-        justify-items: center; /*++++++++++++++++++++++++++++++++++++++++++++++++*/
+        justify-items: center;
     }
 
     .nav__link--footer{
@@ -672,9 +671,7 @@ justify-items: center;
         flex: 1;
     }
 
-}
-
-@media (max-width:600px){
+    @media (max-width:600px){
     .hero__title{
         font-size: 2rem;
     }
@@ -705,7 +702,7 @@ justify-items: center;
     }
 
     .testimony__container{
-        grid-template-columns: 28px 1fr 28px;  /*--------------------------------------------------------------*/
+        grid-template-columns: 28px 1fr 28px;
         gap: .9em;
     }
 
@@ -748,6 +745,7 @@ justify-items: center;
         margin-right: auto;
         margin-left: 0;
         
+
         /* 
         margin:0;
         width: 100%;
